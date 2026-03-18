@@ -1,0 +1,46 @@
+.sidebar-title{
+    font-size: 1.5rem;
+}
+.price-filter-label-min{
+    flex-basis: 50%;
+}
+.product-list-sidebar{
+    margin-right: 100px;
+    flex-basis: 20%;
+    align-self: flex-start;
+    position: sticky;
+    top: 50px;
+}
+.categorylist a{
+    padding: 0.7rem 1.5rem;
+    border-bottom: 1px solid var(--light-blue);
+    background-color: var(--sky-blue);
+    color: black;
+    font-size: 1.2rem;
+}
+.categorylist:hover{
+    cursor: pointer;
+}
+.categorylist a:last-child{
+    border-bottom: none;
+}
+.categorylist a:hover{
+    background-color: var(--dark-sky-blue);
+    font-weight: bold;
+}
+.sidebar-title{
+    margin: 0.8rem 0;
+}
+.clearFilter{
+    margin-top: 1rem;
+}
+.clear{
+    color: white;
+    text-decoration: none;
+}
+.price-filter-select > div{
+    margin-bottom: 1rem;
+}
+.price-filter-title{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,32 @@
+/* #header{
+    position: sticky;
+    top: 0;
+} */
+.cart-title{
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+.order-details-title{
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--mid-gray);
+}
+.priceDetails{
+    flex-basis: 30%;
+    margin-left: 2rem;
+    gap: 1.5rem;
+    align-self: flex-start;
+    position: sticky;
+    top: 100px;
+    margin-right: 3rem;
+}
+.price-details-box{
+    box-shadow: 0px 2px 4px var(--mid-gray);
+    padding: 20px;
+    border-radius: 10px;
+}
+.continue-shopping-btn{
+    color: white;
+}
+.price-details-b-group{
+    gap: 0.5rem;
+}

@@ -1,0 +1,14 @@
+#title{
+    letter-spacing: 10px;
+    font-size: 2rem;
+}
+#title > a{
+    text-decoration: none;
+    color: black;
+}
+#options{
+    font-size: x-large;
+}
+#username{
+    font-size: x-large;
+}

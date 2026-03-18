@@ -1,0 +1,37 @@
+.product-list-title{
+    margin-bottom: 2rem;
+}
+.product-list-box{
+    flex-basis: 80%;
+}
+.product-list-box .product-item{
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 5px #ccc;
+    padding: 1rem;
+}
+.product-image{
+    height: 300px;
+}
+.product-list-box .product-item img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-list-box .product-name{
+    font-size: 1.5rem;
+    color: black;
+    padding: 0.75rem 0;
+}
+.product-list-box .product-price{
+    font-size: 1rem;
+    color: var(--jean-blue);
+    padding-bottom: 10px;
+}
+.product-list-box :nth-child(3n){
+    margin-right: 0;
+}
+.product-list-box .product-item:hover{
+    box-shadow: 0px 6px 12px var(--gray);
+    transition: box-shadow 0.3s linear 0s;
+}
